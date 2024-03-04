@@ -1,0 +1,25 @@
+{
+	"name": "SherpaJS-static-flags",
+	"author": "Sellers Industry",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "sherpa build -b Vercel",
+		"dev": "sherpa start",
+		"lint": "sherpa lint",
+		"test": "echo \"no test specified\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sellersindustry/SherpaJS-static-flags.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sellersindustry/SherpaJS-static-flags/issues"
+	},
+	"homepage": "https://github.com/sellersindustry/SherpaJS-static-flags#readme",
+	"dependencies": {
+		"sherpa-core": "^0.0.15"
+	}
+}
