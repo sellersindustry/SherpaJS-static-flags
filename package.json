@@ -2,7 +2,7 @@
 	"name": "sherpajs-static-flags",
 	"author": "Sellers Industry",
 	"version": "0.0.0",
-	"description": "",
+	"description": "Create static flags of booleans, strings, or numbers for SherpaJS an agnostic and modular serverless platform.",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
