@@ -9,6 +9,10 @@
 - ✅ Expose static flags like booleans, strings, and numbers
 - ✅ Endpoint to expose all flags or singular flag
 
+## Installation
+```
+npm install sherpajs-static-flags
+```
 
 ## Example Usage
 ```typescript
