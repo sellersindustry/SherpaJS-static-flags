@@ -1,4 +1,5 @@
 # SherpaJS Static Flags
+![NPM Version](https://img.shields.io/npm/v/sherpajs-static-flags)
 
 > Create static flags of booleans, strings, or numbers for [SherpaJS](https://github.com/sellersindustry/SherpaJS) modular microservice platform.
 
