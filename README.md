@@ -30,9 +30,9 @@ export default NewServer({
 **Endpoint `/`**
 ```json
 {
-    example: "hello world",
-    test: 2
-    foo: false
+    "example": "hello world",
+    "test": 2
+    "foo": false
 }
 ```
 
