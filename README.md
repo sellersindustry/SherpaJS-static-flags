@@ -38,7 +38,7 @@ export default NewServer({
 
 **Endpoint `/example`**
 ```json
-"hello world"
+hello world
 ```
 
 **Endpoint `/test`**
