@@ -18,18 +18,15 @@ npm install sherpajs-static-flags
 
 ## Example Usage
 ```typescript
-// sherpa.server.ts
-import { NewServer } from "sherpa-core";
+// any index.ts route
+import { SherpaJS } from "sherpa-core";
 
-export default NewServer({
-    version: 1,
-    app: {
-        module: "sherpajs-static-flags",
-        properties: {
-            example: "hello world",
-            test: 2
-            foo: false
-        }
+export default SherpaJS.Load.module({
+    entry: "sherpajs-static-flags",
+    context: {
+        example: "hello world",
+        test: 2
+        foo: false
     }
 });
 ```
