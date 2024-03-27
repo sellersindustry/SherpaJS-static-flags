@@ -11,11 +11,12 @@
  */
 
 
-import { Response, Request, Environment } from "sherpa-core";
+import { Response, Request } from "sherpa-core";
+import { ContextSchema } from "../sherpa.module";
 
 
-export function GET(_:Request, env:Environment) {
-    return Response(env.GetProperties());
+export function GET(_:Request, context:ContextSchema) {
+    return Response.JSON(context);
 }
 
 

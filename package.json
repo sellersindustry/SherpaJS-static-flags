@@ -3,12 +3,9 @@
 	"author": "Sellers Industry",
 	"version": "0.0.0",
 	"description": "Create static flags of booleans, strings, or numbers for SherpaJS an agnostic and modular serverless platform.",
-	"main": "index.js",
-	"type": "module",
 	"scripts": {
 		"build": "sherpa build -b Vercel",
-		"dev": "sherpa start",
-		"lint": "sherpa lint",
+		"dev": "sherpa build -b local && node ./.sherpa/index.js",
 		"test": "echo \"no test specified\""
 	},
 	"repository": {
@@ -21,6 +18,6 @@
 	},
 	"homepage": "https://github.com/sellersindustry/SherpaJS-static-flags#readme",
 	"dependencies": {
-		"sherpa-core": "^0.0.15"
+		"sherpa-core": "^1.0.4"
 	}
 }

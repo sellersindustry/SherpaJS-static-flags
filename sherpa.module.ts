@@ -1,10 +1,10 @@
-import { NewModule } from "sherpa-core";
+import { SherpaJS } from "sherpa-core";
 
-export default NewModule({
-    version: 1,
+export default SherpaJS.New.module({
     name: "static-flags",
 });
 
-export type SHERPA_PROPERTIES = {
+
+export type ContextSchema = {
     [key: string]: string | number | boolean
 }

@@ -11,16 +11,16 @@
  */
 
 
-import { Response, Request, Environment } from "sherpa-core";
+import { Response, Request } from "sherpa-core";
+import { ContextSchema } from "../../sherpa.module";
 
 
-export function GET(req:Request, env:Environment) {
-    let key   = req.params["key"];
-    let props = env.GetProperties();
-    if (key in props) {
-        return Response(props[key]);
+export function GET(req:Request, context:ContextSchema) {
+    let key = req.params.path.get("key") as string;
+    if (context[key]) {
+        return Response.text(context[key].toString());
     } else {
-        return Response("", { status: 404 });
+        return Response.new({ status: 404 });
     }
 }
 
