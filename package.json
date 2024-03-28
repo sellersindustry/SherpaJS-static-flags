@@ -3,6 +3,7 @@
 	"author": "Sellers Industry",
 	"version": "0.0.0",
 	"description": "Create static flags of booleans, strings, or numbers for SherpaJS an agnostic and modular serverless platform.",
+	"main": "sherpa.module.ts",
 	"scripts": {
 		"build": "sherpa build -b Vercel",
 		"dev": "sherpa build -b local && node ./.sherpa/index.js",
