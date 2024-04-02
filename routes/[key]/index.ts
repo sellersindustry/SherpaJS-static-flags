@@ -12,10 +12,10 @@
 
 
 import { Response, Request } from "sherpa-core";
-import { ContextSchema } from "../../sherpa.module";
+import { Context } from "../../sherpa.module";
 
 
-export function GET(req:Request, context:ContextSchema) {
+export function GET(req:Request, context:Context) {
     let key = req.params.path.get("key") as string;
     if (context[key]) {
         return Response.text(context[key].toString());
