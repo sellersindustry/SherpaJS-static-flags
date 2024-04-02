@@ -19,6 +19,6 @@
 	},
 	"homepage": "https://github.com/sellersindustry/SherpaJS-static-flags#readme",
 	"dependencies": {
-		"sherpa-core": "^1.1.1"
+		"sherpa-core": "^1.1.2"
 	}
 }
