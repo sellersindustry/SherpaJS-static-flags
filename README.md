@@ -33,7 +33,7 @@ export default StaticFlags.load({
 ```json
 {
     "example": "hello world",
-    "test": 2
+    "test": 2,
     "foo": false
 }
 ```
