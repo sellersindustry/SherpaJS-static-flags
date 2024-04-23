@@ -1,6 +1,7 @@
 import { SherpaJS } from "sherpa-core";
+import { Context } from "./sherpa.module";
 
-export default SherpaJS.New.server({
+export default SherpaJS.New.server<Context>({
     context: {
         test: true,
         string: "hello world",
